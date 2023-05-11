@@ -1,1 +1,53 @@
-[]
+{
+  "version": 1,
+  "lastopen": "@workspace",
+  "expanded": {
+    "@workspace": {}
+  },
+  "nodes": [
+    {
+      "ID": "@root",
+      "Name": "@root",
+      "Linked": {
+        "Children": [
+          "@workspace"
+        ],
+        "Components": []
+      },
+      "Attrs": {}
+    },
+    {
+      "ID": "@workspace",
+      "Name": "Workspace",
+      "Linked": {
+        "Children": [
+          "@calendar",
+          "lhj604o0p4aknes1gp"
+        ],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@root"
+    },
+    {
+      "ID": "@calendar",
+      "Name": "Calendar",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    },
+    {
+      "ID": "lhj604o0p4aknes1gp",
+      "Name": "Home",
+      "Linked": {
+        "Children": [],
+        "Components": []
+      },
+      "Attrs": {},
+      "Parent": "@workspace"
+    }
+  ]
+}
